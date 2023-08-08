@@ -48,6 +48,7 @@ const Home = () => {
         onRequestClose={() => {
           alert("Not Eklenemedi");
           setAddItem(!addItem);
+          setText("");
         }}
       >
         <View style={styles.modalPage}>
